@@ -1,4 +1,4 @@
 function isLC(string) {
-    string.toLowerCase() === string ? true : false  
+    return string.toLowerCase() === string ? true : false  
 }
 module.exports = isLC
